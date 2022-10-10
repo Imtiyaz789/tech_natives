@@ -1,10 +1,9 @@
 .App {
   text-align: center;
+
 }
-
-
-.App-header {
-  background-color: #282c34;
+.App {
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,4 +12,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.main-chart{
+  width: 950px;
+  height: 600px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: aliceblue;
+  color:#282c34;
+  padding: 10px;
+}
